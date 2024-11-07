@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class FooterExample {
+public class Footer {
     public static void main(String[] args) {
         // Get the current date
         LocalDate currentDate = LocalDate.now();
@@ -11,7 +11,7 @@ public class FooterExample {
 
         // Format the current date
         String formattedDate = currentDate.format(formatter);
-    
+
         // Display the dynamic footer
         System.out.println("Footer: Today's Date is " + formattedDate);
     }
